@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/etInput1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Input 1" />
+    <EditText android:id="@+id/etInput2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Input 2" />
+    <EditText android:id="@+id/etInput3" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Input 3" />
+
+    <LinearLayout
+        android:id="@+id/layoutInput4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etInput4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input 4" />
+    </LinearLayout>
+</LinearLayout>
